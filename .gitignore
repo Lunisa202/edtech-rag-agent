@@ -1,0 +1,16 @@
+# Entornos virtuales de Python
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Variables de entorno 
+.env
+
+# Base de datos vectorial local
+chroma_db/
+faiss_index/
+
+# Frontend
+node_modules/
+dist/

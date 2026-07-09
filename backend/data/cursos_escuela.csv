@@ -1,0 +1,11 @@
+id,nombre_curso,profesor,horario,fecha_inicio,estado,vacantes,vacantes_libres
+1,Desarrollo Web Full Stack,Carlos Mendoza,Lu y Mi 19:00 - 21:00,2026-08-10,Inscripciones Abiertas,45,12
+2,Python para Ciencia de Datos,Lucía Fernández,Ma y Ju 18:00 - 20:00,2026-08-24,Inscripciones Abiertas,40,25
+3,Diseño UX/UI,Andrea Torres,Sa 09:00 - 13:00,2026-09-05,Cupos Agotados,42,0
+4,Ciberseguridad Ofensiva,Roberto Salazar,Lu Mi y Vi 20:00 - 21:30,2026-09-21,Próximo a Iniciar,50,50
+5,Inteligencia Artificial Aplicada,María José Rivas,Ma y Ju 19:00 - 21:00,2026-10-05,Inscripciones Abiertas,48,9
+6,Desarrollo de Apps Móviles,Diego Vargas,Vi 18:00 - 22:00,2026-10-19,Cupos Agotados,40,0
+7,Cloud Computing con AWS,Patricia Núñez,Lu y Mi 18:30 - 20:30,2026-11-02,Inscripciones Abiertas,46,30
+8,Marketing Digital y Analítica,Fernando Castillo,Sa 10:00 - 14:00,2026-11-16,Próximo a Iniciar,44,44
+9,Bases de Datos y SQL Avanzado,Gabriela Ponce,Ma y Ju 19:30 - 21:30,2026-11-30,Inscripciones Abiertas,50,18
+10,Blockchain y Criptografía,Javier Huamán,Lu 19:00 - 22:00,2026-12-07,Cupos Agotados,45,0
