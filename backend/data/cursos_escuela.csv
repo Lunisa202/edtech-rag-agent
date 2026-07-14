@@ -1,11 +1,21 @@
-id,nombre_curso,profesor,horario,fecha_inicio,estado,vacantes,vacantes_libres
-1,Desarrollo Web Full Stack,Carlos Mendoza,Lu y Mi 19:00 - 21:00,2026-08-10,Inscripciones Abiertas,45,12
-2,Python para Ciencia de Datos,Lucía Fernández,Ma y Ju 18:00 - 20:00,2026-08-24,Inscripciones Abiertas,40,25
-3,Diseño UX/UI,Andrea Torres,Sa 09:00 - 13:00,2026-09-05,Cupos Agotados,42,0
-4,Ciberseguridad Ofensiva,Roberto Salazar,Lu Mi y Vi 20:00 - 21:30,2026-09-21,Próximo a Iniciar,50,50
-5,Inteligencia Artificial Aplicada,María José Rivas,Ma y Ju 19:00 - 21:00,2026-10-05,Inscripciones Abiertas,48,9
-6,Desarrollo de Apps Móviles,Diego Vargas,Vi 18:00 - 22:00,2026-10-19,Cupos Agotados,40,0
-7,Cloud Computing con AWS,Patricia Núñez,Lu y Mi 18:30 - 20:30,2026-11-02,Inscripciones Abiertas,46,30
-8,Marketing Digital y Analítica,Fernando Castillo,Sa 10:00 - 14:00,2026-11-16,Próximo a Iniciar,44,44
-9,Bases de Datos y SQL Avanzado,Gabriela Ponce,Ma y Ju 19:30 - 21:30,2026-11-30,Inscripciones Abiertas,50,18
-10,Blockchain y Criptografía,Javier Huamán,Lu 19:00 - 22:00,2026-12-07,Cupos Agotados,45,0
+id,nombre_curso,profesor,horario,fecha_inicio,estado,vacantes,vacantes_libres,costo_matricula_pen,mensualidad_pen,duracion_meses,tipo,modalidad
+1,Desarrollo Web Full Stack,Carlos Mendoza,Lu y Mi 19:00 - 21:00,2026-08-10,Inscripciones Abiertas,45,12,250,380,6,Básico/Intermedio,Virtual
+2,Python para Ciencia de Datos,Lucía Fernández,Ma y Ju 18:00 - 20:00,2026-08-24,Inscripciones Abiertas,40,25,250,420,5,Básico,Virtual
+3,Diseño UX/UI,Andrea Torres,Sa 09:00 - 13:00,2026-09-05,Cupos Agotados,42,0,220,350,4,Básico,Virtual
+4,Ciberseguridad Ofensiva,Roberto Salazar,Lu Mi y Vi 20:00 - 21:30,2026-09-21,Próximo a Iniciar,50,50,280,450,6,Avanzado,Semipresencial (min. 40% asistencia presencial; 100% en evaluaciones)
+5,Inteligencia Artificial Aplicada,María José Rivas,Ma y Ju 19:00 - 21:00,2026-10-05,Inscripciones Abiertas,48,9,280,450,5,Intermedio,Virtual
+6,Desarrollo de Apps Móviles,Diego Vargas,Vi 18:00 - 22:00,2026-10-19,Cupos Agotados,40,0,250,400,5,Intermedio,Virtual
+7,Cloud Computing con AWS,Patricia Núñez,Lu y Mi 18:30 - 20:30,2026-11-02,Inscripciones Abiertas,46,30,260,420,4,Intermedio,Virtual
+8,Marketing Digital y Analítica,Fernando Castillo,Sa 10:00 - 14:00,2026-11-16,Próximo a Iniciar,44,44,200,320,3,Básico,Virtual
+9,Bases de Datos y SQL Avanzado,Gabriela Ponce,Ma y Ju 19:30 - 21:30,2026-11-30,Inscripciones Abiertas,50,18,220,360,4,Intermedio,Virtual
+10,Blockchain y Criptografía,Javier Huamán,Lu 19:00 - 22:00,2026-12-07,Cupos Agotados,45,0,270,430,5,Intermedio,Virtual
+11,Testing y Automatización QA,Sandra Rojas,Lu y Mi 18:00 - 20:00,2026-08-17,Inscripciones Abiertas,38,20,230,370,4,Básico/Intermedio,Virtual
+12,Desarrollo con React y Node.js,Miguel Ángel Torres,Ma y Ju 19:00 - 21:00,2026-09-14,Inscripciones Abiertas,42,28,260,400,5,Avanzado,Semipresencial (min. 40% asistencia presencial; 100% en evaluaciones)
+13,Administración de Redes y Servidores,Ana Belén Castro,Sa 08:00 - 12:00,2026-09-28,Inscripciones Abiertas,40,33,230,380,5,Básico/Intermedio,Semipresencial (min. 40% asistencia presencial; 100% en evaluaciones y laboratorio)
+14,Análisis de Datos con Power BI,Renzo Aguilar,Lu y Mi 20:00 - 22:00,2026-10-12,Próximo a Iniciar,45,45,200,340,3,Básico,Virtual
+15,Desarrollo de Videojuegos con Unity,Camila Solórzano,Vi 17:00 - 21:00,2026-10-26,Inscripciones Abiertas,35,22,270,410,6,Intermedio,Virtual
+16,Gestión de Proyectos con Metodologías Ágiles,Jorge Paredes,Ma y Ju 18:30 - 20:30,2026-11-09,Inscripciones Abiertas,48,40,210,350,3,Básico,Virtual
+17,Machine Learning con TensorFlow,Valeria Chumpitaz,Sa 09:00 - 13:00,2026-11-23,Inscripciones Abiertas,40,31,290,460,6,Avanzado,Semipresencial (min. 40% asistencia presencial; 100% en evaluaciones)
+18,Diseño Gráfico Digital,Bruno Ramírez,Lu y Mi 19:00 - 21:00,2026-12-14,Próximo a Iniciar,44,44,190,310,4,Básico,Virtual
+19,Administración de Bases de Datos en la Nube,Karina Espinoza,Ma y Ju 19:30 - 21:30,2027-01-11,Inscripciones Abiertas,46,46,240,390,5,Avanzado,Semipresencial (min. 40% asistencia presencial; 100% en evaluaciones)
+20,Fundamentos de Ciberseguridad Defensiva,Iván Quispe,Vi 18:00 - 22:00,2027-01-25,Inscripciones Abiertas,42,42,250,400,5,Básico,Virtual

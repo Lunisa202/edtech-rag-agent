@@ -1,0 +1,11 @@
+.chatContainer {
+  /* Bordes redondeados modernos para el contenedor principal */
+  border-radius: 20px;
+  
+  /* Una sombra suave y difuminada que le da profundidad profesional */
+  box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.1), 
+              0 0 20px -5px rgba(0, 0, 0, 0.05);
+              
+  /* Un borde sutil para delimitar el componente en fondos claros */
+  border: 1px solid rgba(229, 231, 235, 0.8);
+}

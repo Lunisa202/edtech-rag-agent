@@ -7,9 +7,14 @@ __pycache__/
 # Variables de entorno 
 .env
 
-# Base de datos vectorial local
-chroma_db/
+# Ignora todo dentro de la carpeta (logs, archivos temporales, etc.)
 faiss_index/
+alembic.ini
+__pycache__
+
+# PERO permite que estos dos tipos de archivos sí se suban
+!faiss_index/*.faiss
+!faiss_index/*.pkl
 
 # Frontend
 node_modules/
